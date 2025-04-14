@@ -1,0 +1,85 @@
+/* Sabrina Carpenter's CSS Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #d34040;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.titleHeader {
+    text-align: center;
+    border: .25rem outset #d34040;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,17,1) 37%, rgba(94,54,54,1) 93%, rgba(255,95,0,1) 97%);
+    color: orangered;
+    margin: auto;
+}
+
+.titleHeaderBlue {
+    text-align: center;
+    border: .25rem outset #d34040;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,17,1) 37%, rgba(94,54,54,1) 93%, rgba(0,0,255,1) 97%);
+    color: blue;
+    margin: auto;
+}
+
+
+
+.infoList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: circle;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+    gap: 3rem;
+}
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:blue
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+
+}
+
+.sabrinaParagraph {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
