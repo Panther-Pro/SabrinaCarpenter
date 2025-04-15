@@ -83,3 +83,20 @@ h3 {
     background-color: #f0f0f0;
     border-radius: 8px;
 }
+
+        .sabrinaParagraph::first-letter {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #d34040;
+        }
+
+#back-to-top { 
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0;
+
+}
